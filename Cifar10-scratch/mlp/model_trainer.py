@@ -8,6 +8,7 @@ import random
 
 from mlp import MLP
 from dataloader_factory import DataLoaderFactory
+from log_writer import setup_logger
 
 class ModelTrainer:
     def __init__(self, model=None, criterion=None, optimizer=None, dataloader=None):
@@ -29,7 +30,7 @@ class ModelTrainer:
         if write_log:
             num_layers = len(list(self.model.children())) // 2 + 1
             id = random.randint(0, 1000)
-            logging.basicConfig(filename=f'training_mlp_{num_layers}_hidden_layers_{id}.log', level=logging.INFO)
+            setup_logger(filename=f'training_mlp_{num_layers}_hidden_layers_{id}.log')
             logging.info("Training started\n")
 
         for epoch in range(epochs):
