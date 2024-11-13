@@ -1,0 +1,4 @@
+2024-11-13 10:45:12,240 - INFO - Training started
+
+2024-11-13 10:46:03,355 - INFO - Epoch: 1, Loss: 1.9868, Train accuracy: 0.28826001286506653	|	 Test accuracy: 0.33340001106262207
+

@@ -1,0 +1,612 @@
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.9871, Train accuracy: 0.2854599952697754	|	 Test accuracy: 0.33340001106262207
+
+INFO:root:Epoch: 2, Loss: 1.8331, Train accuracy: 0.34797999262809753	|	 Test accuracy: 0.36649999022483826
+
+INFO:root:Epoch: 3, Loss: 1.7672, Train accuracy: 0.37251999974250793	|	 Test accuracy: 0.39089998602867126
+
+INFO:root:Epoch: 4, Loss: 1.7156, Train accuracy: 0.39024001359939575	|	 Test accuracy: 0.4025999903678894
+
+INFO:root:Epoch: 5, Loss: 1.6837, Train accuracy: 0.4043000042438507	|	 Test accuracy: 0.4081999957561493
+
+INFO:root:Epoch: 6, Loss: 1.6602, Train accuracy: 0.41106000542640686	|	 Test accuracy: 0.42399999499320984
+
+INFO:root:Epoch: 7, Loss: 1.6377, Train accuracy: 0.41995999217033386	|	 Test accuracy: 0.42260000109672546
+
+INFO:root:Epoch: 8, Loss: 1.6191, Train accuracy: 0.42621999979019165	|	 Test accuracy: 0.43619999289512634
+
+INFO:root:Epoch: 9, Loss: 1.6011, Train accuracy: 0.43290001153945923	|	 Test accuracy: 0.4406000077724457
+
+INFO:root:Epoch: 10, Loss: 1.5846, Train accuracy: 0.43573999404907227	|	 Test accuracy: 0.44279998540878296
+
+INFO:root:Epoch: 11, Loss: 1.5780, Train accuracy: 0.44207999110221863	|	 Test accuracy: 0.4431000053882599
+
+INFO:root:Epoch: 12, Loss: 1.5649, Train accuracy: 0.4492200016975403	|	 Test accuracy: 0.44609999656677246
+
+INFO:root:Epoch: 13, Loss: 1.5508, Train accuracy: 0.4496400058269501	|	 Test accuracy: 0.45170000195503235
+
+INFO:root:Epoch: 14, Loss: 1.5409, Train accuracy: 0.4537000060081482	|	 Test accuracy: 0.4575999975204468
+
+INFO:root:Epoch: 15, Loss: 1.5330, Train accuracy: 0.4546400010585785	|	 Test accuracy: 0.45879998803138733
+
+INFO:root:Epoch: 16, Loss: 1.5227, Train accuracy: 0.45941999554634094	|	 Test accuracy: 0.4645000100135803
+
+INFO:root:Epoch: 17, Loss: 1.5164, Train accuracy: 0.4648999869823456	|	 Test accuracy: 0.4584999978542328
+
+INFO:root:Epoch: 18, Loss: 1.5108, Train accuracy: 0.46338000893592834	|	 Test accuracy: 0.46779999136924744
+
+INFO:root:Epoch: 19, Loss: 1.5046, Train accuracy: 0.4623599946498871	|	 Test accuracy: 0.4684000015258789
+
+INFO:root:Epoch: 20, Loss: 1.4992, Train accuracy: 0.46860000491142273	|	 Test accuracy: 0.4740999937057495
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 2.0741, Train accuracy: 0.2561199963092804	|	 Test accuracy: 0.3089999854564667
+
+INFO:root:Epoch: 2, Loss: 1.9310, Train accuracy: 0.31189998984336853	|	 Test accuracy: 0.33649998903274536
+
+INFO:root:Epoch: 3, Loss: 1.8708, Train accuracy: 0.33737999200820923	|	 Test accuracy: 0.34200000762939453
+
+INFO:root:Epoch: 4, Loss: 1.8270, Train accuracy: 0.3536199927330017	|	 Test accuracy: 0.36149999499320984
+
+INFO:root:Epoch: 5, Loss: 1.7927, Train accuracy: 0.3658199906349182	|	 Test accuracy: 0.3693000078201294
+
+INFO:root:Epoch: 6, Loss: 1.7657, Train accuracy: 0.37501999735832214	|	 Test accuracy: 0.3804999887943268
+
+INFO:root:Epoch: 7, Loss: 1.7403, Train accuracy: 0.3815999925136566	|	 Test accuracy: 0.3898000121116638
+
+INFO:root:Epoch: 8, Loss: 1.7219, Train accuracy: 0.3885200023651123	|	 Test accuracy: 0.3970000147819519
+
+INFO:root:Epoch: 9, Loss: 1.7043, Train accuracy: 0.3932799994945526	|	 Test accuracy: 0.4056999981403351
+
+INFO:root:Epoch: 10, Loss: 1.6916, Train accuracy: 0.40167999267578125	|	 Test accuracy: 0.4059000015258789
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.8398, Train accuracy: 0.34303998947143555	|	 Test accuracy: 0.3799999952316284
+
+INFO:root:Epoch: 2, Loss: 1.7212, Train accuracy: 0.38345998525619507	|	 Test accuracy: 0.39320001006126404
+
+INFO:root:Epoch: 3, Loss: 1.6865, Train accuracy: 0.3959200084209442	|	 Test accuracy: 0.41029998660087585
+
+INFO:root:Epoch: 4, Loss: 1.6689, Train accuracy: 0.4046599864959717	|	 Test accuracy: 0.41990000009536743
+
+INFO:root:Epoch: 5, Loss: 1.6522, Train accuracy: 0.41086000204086304	|	 Test accuracy: 0.414000004529953
+
+INFO:root:Epoch: 6, Loss: 1.6436, Train accuracy: 0.4131999909877777	|	 Test accuracy: 0.41589999198913574
+
+INFO:root:Epoch: 7, Loss: 1.6362, Train accuracy: 0.4187600016593933	|	 Test accuracy: 0.41940000653266907
+
+INFO:root:Epoch: 8, Loss: 1.6226, Train accuracy: 0.4224399924278259	|	 Test accuracy: 0.40950000286102295
+
+INFO:root:Epoch: 9, Loss: 1.6186, Train accuracy: 0.4242199957370758	|	 Test accuracy: 0.42969998717308044
+
+INFO:root:Epoch: 10, Loss: 1.6109, Train accuracy: 0.42201998829841614	|	 Test accuracy: 0.42879998683929443
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.6446, Train accuracy: 0.42236000299453735	|	 Test accuracy: 0.42320001125335693
+
+INFO:root:Epoch: 2, Loss: 1.6282, Train accuracy: 0.4235000014305115	|	 Test accuracy: 0.4253999888896942
+
+INFO:root:Epoch: 3, Loss: 1.6140, Train accuracy: 0.4293000102043152	|	 Test accuracy: 0.42480000853538513
+
+INFO:root:Epoch: 4, Loss: 1.6091, Train accuracy: 0.42945998907089233	|	 Test accuracy: 0.4339999854564667
+
+INFO:root:Epoch: 5, Loss: 1.6058, Train accuracy: 0.43101999163627625	|	 Test accuracy: 0.4449000060558319
+
+INFO:root:Epoch: 6, Loss: 1.6013, Train accuracy: 0.4323999881744385	|	 Test accuracy: 0.42570000886917114
+
+INFO:root:Epoch: 7, Loss: 1.5984, Train accuracy: 0.43367999792099	|	 Test accuracy: 0.4375999867916107
+
+INFO:root:Epoch: 8, Loss: 1.5932, Train accuracy: 0.43248000741004944	|	 Test accuracy: 0.4440999925136566
+
+INFO:root:Epoch: 9, Loss: 1.5895, Train accuracy: 0.4366599917411804	|	 Test accuracy: 0.4284000098705292
+
+INFO:root:Epoch: 10, Loss: 1.5867, Train accuracy: 0.43498000502586365	|	 Test accuracy: 0.4366999864578247
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 2.3321, Train accuracy: 0.2599000036716461	|	 Test accuracy: 0.2732999920845032
+
+INFO:root:Epoch: 2, Loss: 2.3982, Train accuracy: 0.2493399977684021	|	 Test accuracy: 0.28049999475479126
+
+INFO:root:Epoch: 3, Loss: 2.4760, Train accuracy: 0.25321999192237854	|	 Test accuracy: 0.2563999891281128
+
+INFO:root:Epoch: 4, Loss: 2.3978, Train accuracy: 0.25589999556541443	|	 Test accuracy: 0.27219998836517334
+
+INFO:root:Epoch: 5, Loss: 2.3294, Train accuracy: 0.25110000371932983	|	 Test accuracy: 0.23180000483989716
+
+INFO:root:Epoch: 6, Loss: 2.4067, Train accuracy: 0.2565000057220459	|	 Test accuracy: 0.25209999084472656
+
+INFO:root:Epoch: 7, Loss: 2.3584, Train accuracy: 0.2521199882030487	|	 Test accuracy: 0.26339998841285706
+
+INFO:root:Epoch: 8, Loss: 2.3122, Train accuracy: 0.2565000057220459	|	 Test accuracy: 0.26339998841285706
+
+INFO:root:Epoch: 9, Loss: 2.3527, Train accuracy: 0.26273998618125916	|	 Test accuracy: 0.251800000667572
+
+INFO:root:Epoch: 10, Loss: 2.3264, Train accuracy: 0.25387999415397644	|	 Test accuracy: 0.25360000133514404
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 2.1356, Train accuracy: 0.2740600109100342	|	 Test accuracy: 0.2711000144481659
+
+INFO:root:Epoch: 2, Loss: 2.0842, Train accuracy: 0.27730000019073486	|	 Test accuracy: 0.2773999869823456
+
+INFO:root:Epoch: 3, Loss: 2.0388, Train accuracy: 0.27897998690605164	|	 Test accuracy: 0.2777000069618225
+
+INFO:root:Epoch: 4, Loss: 2.0566, Train accuracy: 0.2820200026035309	|	 Test accuracy: 0.27790001034736633
+
+INFO:root:Epoch: 5, Loss: 1.9978, Train accuracy: 0.28426000475883484	|	 Test accuracy: 0.2824000120162964
+
+INFO:root:Epoch: 6, Loss: 1.9854, Train accuracy: 0.28387999534606934	|	 Test accuracy: 0.27720001339912415
+
+INFO:root:Epoch: 7, Loss: 1.9952, Train accuracy: 0.2830199897289276	|	 Test accuracy: 0.2831000089645386
+
+INFO:root:Epoch: 8, Loss: 1.9810, Train accuracy: 0.2851400077342987	|	 Test accuracy: 0.2854999899864197
+
+INFO:root:Epoch: 9, Loss: 1.9786, Train accuracy: 0.28755998611450195	|	 Test accuracy: 0.2883000075817108
+
+INFO:root:Epoch: 10, Loss: 1.9632, Train accuracy: 0.28672000765800476	|	 Test accuracy: 0.28949999809265137
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.9163, Train accuracy: 0.3109000027179718	|	 Test accuracy: 0.3149999976158142
+
+INFO:root:Epoch: 2, Loss: 1.8745, Train accuracy: 0.3257800042629242	|	 Test accuracy: 0.3262999951839447
+
+INFO:root:Epoch: 3, Loss: 1.8595, Train accuracy: 0.333979994058609	|	 Test accuracy: 0.3346000015735626
+
+INFO:root:Epoch: 4, Loss: 1.8389, Train accuracy: 0.33715999126434326	|	 Test accuracy: 0.3447999954223633
+
+INFO:root:Epoch: 5, Loss: 1.8167, Train accuracy: 0.34310001134872437	|	 Test accuracy: 0.34950000047683716
+
+INFO:root:Epoch: 6, Loss: 1.8206, Train accuracy: 0.3462199866771698	|	 Test accuracy: 0.35109999775886536
+
+INFO:root:Epoch: 7, Loss: 1.8058, Train accuracy: 0.3503200113773346	|	 Test accuracy: 0.3555000126361847
+
+INFO:root:Epoch: 8, Loss: 1.7987, Train accuracy: 0.35231998562812805	|	 Test accuracy: 0.3488999903202057
+
+INFO:root:Epoch: 9, Loss: 1.7893, Train accuracy: 0.3553999960422516	|	 Test accuracy: 0.3555000126361847
+
+INFO:root:Epoch: 10, Loss: 1.7855, Train accuracy: 0.35833999514579773	|	 Test accuracy: 0.3596999943256378
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.8734, Train accuracy: 0.3332200050354004	|	 Test accuracy: 0.33230000734329224
+
+INFO:root:Epoch: 2, Loss: 1.8653, Train accuracy: 0.3343600034713745	|	 Test accuracy: 0.31360000371932983
+
+INFO:root:Epoch: 3, Loss: 1.8652, Train accuracy: 0.33414000272750854	|	 Test accuracy: 0.34529998898506165
+
+INFO:root:Epoch: 4, Loss: 1.8588, Train accuracy: 0.33316001296043396	|	 Test accuracy: 0.3149999976158142
+
+INFO:root:Epoch: 5, Loss: 1.8526, Train accuracy: 0.33570000529289246	|	 Test accuracy: 0.33180001378059387
+
+INFO:root:Epoch: 6, Loss: 1.8510, Train accuracy: 0.337660014629364	|	 Test accuracy: 0.31929999589920044
+
+INFO:root:Epoch: 7, Loss: 1.8446, Train accuracy: 0.33827999234199524	|	 Test accuracy: 0.33169999718666077
+
+INFO:root:Epoch: 8, Loss: 1.8415, Train accuracy: 0.3384999930858612	|	 Test accuracy: 0.32600000500679016
+
+INFO:root:Epoch: 9, Loss: 1.8382, Train accuracy: 0.33998000621795654	|	 Test accuracy: 0.3409999907016754
+
+INFO:root:Epoch: 10, Loss: 1.8368, Train accuracy: 0.3405599892139435	|	 Test accuracy: 0.3427000045776367
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 2.0176, Train accuracy: 0.30994001030921936	|	 Test accuracy: 0.29829999804496765
+
+INFO:root:Epoch: 2, Loss: 2.0807, Train accuracy: 0.2985199987888336	|	 Test accuracy: 0.30570000410079956
+
+INFO:root:Epoch: 3, Loss: 2.0370, Train accuracy: 0.29750001430511475	|	 Test accuracy: 0.3084999918937683
+
+INFO:root:Epoch: 4, Loss: 2.0614, Train accuracy: 0.29848000407218933	|	 Test accuracy: 0.29030001163482666
+
+INFO:root:Epoch: 5, Loss: 2.0767, Train accuracy: 0.2996799945831299	|	 Test accuracy: 0.29980000853538513
+
+INFO:root:Epoch: 6, Loss: 1.9989, Train accuracy: 0.2987399995326996	|	 Test accuracy: 0.2924000024795532
+
+INFO:root:Epoch: 7, Loss: 2.0399, Train accuracy: 0.2964800000190735	|	 Test accuracy: 0.288100004196167
+
+INFO:root:Epoch: 8, Loss: 2.0395, Train accuracy: 0.295740008354187	|	 Test accuracy: 0.29159998893737793
+
+INFO:root:Epoch: 9, Loss: 2.0225, Train accuracy: 0.3010999858379364	|	 Test accuracy: 0.28450000286102295
+
+INFO:root:Epoch: 10, Loss: 2.0252, Train accuracy: 0.29475998878479004	|	 Test accuracy: 0.3102000057697296
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.9452, Train accuracy: 0.31373998522758484	|	 Test accuracy: 0.31700000166893005
+
+INFO:root:Epoch: 2, Loss: 1.9192, Train accuracy: 0.31529998779296875	|	 Test accuracy: 0.32280001044273376
+
+INFO:root:Epoch: 3, Loss: 1.9193, Train accuracy: 0.31591999530792236	|	 Test accuracy: 0.3181000053882599
+
+INFO:root:Epoch: 4, Loss: 1.9061, Train accuracy: 0.3190999925136566	|	 Test accuracy: 0.3224000036716461
+
+INFO:root:Epoch: 5, Loss: 1.8915, Train accuracy: 0.3190000057220459	|	 Test accuracy: 0.3208000063896179
+
+INFO:root:Epoch: 6, Loss: 1.8985, Train accuracy: 0.3197599947452545	|	 Test accuracy: 0.31790000200271606
+
+INFO:root:Epoch: 7, Loss: 1.8878, Train accuracy: 0.3182399868965149	|	 Test accuracy: 0.3197999894618988
+
+INFO:root:Epoch: 8, Loss: 1.8874, Train accuracy: 0.320279985666275	|	 Test accuracy: 0.3231000006198883
+
+INFO:root:Epoch: 9, Loss: 1.8927, Train accuracy: 0.31891998648643494	|	 Test accuracy: 0.31790000200271606
+
+INFO:root:Epoch: 10, Loss: 1.8789, Train accuracy: 0.3197999894618988	|	 Test accuracy: 0.3237999975681305
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.8414, Train accuracy: 0.334960013628006	|	 Test accuracy: 0.34459999203681946
+
+INFO:root:Epoch: 2, Loss: 1.8200, Train accuracy: 0.3442800045013428	|	 Test accuracy: 0.3474000096321106
+
+INFO:root:Epoch: 3, Loss: 1.8058, Train accuracy: 0.34599998593330383	|	 Test accuracy: 0.35260000824928284
+
+INFO:root:Epoch: 4, Loss: 1.7955, Train accuracy: 0.3521000146865845	|	 Test accuracy: 0.34540000557899475
+
+INFO:root:Epoch: 5, Loss: 1.7872, Train accuracy: 0.3561600148677826	|	 Test accuracy: 0.36079999804496765
+
+INFO:root:Epoch: 6, Loss: 1.7740, Train accuracy: 0.3564000129699707	|	 Test accuracy: 0.3582000136375427
+
+INFO:root:Epoch: 7, Loss: 1.7663, Train accuracy: 0.3633800148963928	|	 Test accuracy: 0.3601999878883362
+
+INFO:root:Epoch: 8, Loss: 1.7624, Train accuracy: 0.36645999550819397	|	 Test accuracy: 0.364300012588501
+
+INFO:root:Epoch: 9, Loss: 1.7540, Train accuracy: 0.3680199980735779	|	 Test accuracy: 0.36559998989105225
+
+INFO:root:Epoch: 10, Loss: 1.7463, Train accuracy: 0.3709999918937683	|	 Test accuracy: 0.37790000438690186
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.7892, Train accuracy: 0.3569599986076355	|	 Test accuracy: 0.337799996137619
+
+INFO:root:Epoch: 2, Loss: 1.7790, Train accuracy: 0.35350000858306885	|	 Test accuracy: 0.33379998803138733
+
+INFO:root:Epoch: 3, Loss: 1.7818, Train accuracy: 0.3555000126361847	|	 Test accuracy: 0.3353999853134155
+
+INFO:root:Epoch: 4, Loss: 1.7751, Train accuracy: 0.35694000124931335	|	 Test accuracy: 0.3359000086784363
+
+INFO:root:Epoch: 5, Loss: 1.7785, Train accuracy: 0.35857999324798584	|	 Test accuracy: 0.3190999925136566
+
+INFO:root:Epoch: 6, Loss: 1.7757, Train accuracy: 0.3588399887084961	|	 Test accuracy: 0.3361999988555908
+
+INFO:root:Epoch: 7, Loss: 1.7781, Train accuracy: 0.35694000124931335	|	 Test accuracy: 0.33899998664855957
+
+INFO:root:Epoch: 8, Loss: 1.7794, Train accuracy: 0.3546000123023987	|	 Test accuracy: 0.35199999809265137
+
+INFO:root:Epoch: 9, Loss: 1.7781, Train accuracy: 0.3569599986076355	|	 Test accuracy: 0.35359999537467957
+
+INFO:root:Epoch: 10, Loss: 1.7720, Train accuracy: 0.3604600131511688	|	 Test accuracy: 0.3206000030040741
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.8878, Train accuracy: 0.3345800042152405	|	 Test accuracy: 0.336899995803833
+
+INFO:root:Epoch: 2, Loss: 1.8972, Train accuracy: 0.33070001006126404	|	 Test accuracy: 0.33390000462532043
+
+INFO:root:Epoch: 3, Loss: 1.8970, Train accuracy: 0.3280799984931946	|	 Test accuracy: 0.3276999890804291
+
+INFO:root:Epoch: 4, Loss: 1.8944, Train accuracy: 0.3270600140094757	|	 Test accuracy: 0.3237000107765198
+
+INFO:root:Epoch: 5, Loss: 1.8903, Train accuracy: 0.32710000872612	|	 Test accuracy: 0.3352000117301941
+
+INFO:root:Epoch: 6, Loss: 1.8928, Train accuracy: 0.33041998744010925	|	 Test accuracy: 0.33469998836517334
+
+INFO:root:Epoch: 7, Loss: 1.8805, Train accuracy: 0.3286600112915039	|	 Test accuracy: 0.3271999955177307
+
+INFO:root:Epoch: 8, Loss: 1.8847, Train accuracy: 0.33076000213623047	|	 Test accuracy: 0.3343000113964081
+
+INFO:root:Epoch: 9, Loss: 1.8923, Train accuracy: 0.32934001088142395	|	 Test accuracy: 0.3336000144481659
+
+INFO:root:Epoch: 10, Loss: 1.8864, Train accuracy: 0.3277600109577179	|	 Test accuracy: 0.32710000872612
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.4909, Train accuracy: 0.4704599976539612	|	 Test accuracy: 0.4675000011920929
+
+INFO:root:Epoch: 2, Loss: 1.4853, Train accuracy: 0.47137999534606934	|	 Test accuracy: 0.4659000039100647
+
+INFO:root:Epoch: 3, Loss: 1.4835, Train accuracy: 0.4718799889087677	|	 Test accuracy: 0.4747999906539917
+
+INFO:root:Epoch: 4, Loss: 1.4766, Train accuracy: 0.4738200008869171	|	 Test accuracy: 0.4754999876022339
+
+INFO:root:Epoch: 5, Loss: 1.4735, Train accuracy: 0.4746200144290924	|	 Test accuracy: 0.4781000018119812
+
+INFO:root:Epoch: 6, Loss: 1.4699, Train accuracy: 0.4776799976825714	|	 Test accuracy: 0.4740999937057495
+
+INFO:root:Epoch: 7, Loss: 1.4667, Train accuracy: 0.47815999388694763	|	 Test accuracy: 0.47540000081062317
+
+INFO:root:Epoch: 8, Loss: 1.4650, Train accuracy: 0.48037999868392944	|	 Test accuracy: 0.47269999980926514
+
+INFO:root:Epoch: 9, Loss: 1.4555, Train accuracy: 0.4817599952220917	|	 Test accuracy: 0.47839999198913574
+
+INFO:root:Epoch: 10, Loss: 1.4553, Train accuracy: 0.4844000041484833	|	 Test accuracy: 0.4724999964237213
+
+INFO:root:Epoch: 11, Loss: 1.4511, Train accuracy: 0.48322001099586487	|	 Test accuracy: 0.48080000281333923
+
+INFO:root:Epoch: 12, Loss: 1.4455, Train accuracy: 0.4837999939918518	|	 Test accuracy: 0.4805000126361847
+
+INFO:root:Epoch: 13, Loss: 1.4432, Train accuracy: 0.4877200126647949	|	 Test accuracy: 0.4875999987125397
+
+INFO:root:Epoch: 14, Loss: 1.4463, Train accuracy: 0.4854399859905243	|	 Test accuracy: 0.4932999908924103
+
+INFO:root:Epoch: 15, Loss: 1.4415, Train accuracy: 0.48881998658180237	|	 Test accuracy: 0.4855000078678131
+
+INFO:root:Epoch: 16, Loss: 1.4402, Train accuracy: 0.48726001381874084	|	 Test accuracy: 0.48649999499320984
+
+INFO:root:Epoch: 17, Loss: 1.4332, Train accuracy: 0.4907799959182739	|	 Test accuracy: 0.4839000105857849
+
+INFO:root:Epoch: 18, Loss: 1.4329, Train accuracy: 0.49277999997138977	|	 Test accuracy: 0.4896000027656555
+
+INFO:root:Epoch: 19, Loss: 1.4272, Train accuracy: 0.49094000458717346	|	 Test accuracy: 0.48429998755455017
+
+INFO:root:Epoch: 20, Loss: 1.4266, Train accuracy: 0.49375998973846436	|	 Test accuracy: 0.4909000098705292
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.8336, Train accuracy: 0.3395799994468689	|	 Test accuracy: 0.34540000557899475
+
+INFO:root:Epoch: 2, Loss: 1.8160, Train accuracy: 0.34318000078201294	|	 Test accuracy: 0.34459999203681946
+
+INFO:root:Epoch: 3, Loss: 1.8044, Train accuracy: 0.34709998965263367	|	 Test accuracy: 0.3416000008583069
+
+INFO:root:Epoch: 4, Loss: 1.7983, Train accuracy: 0.34417998790740967	|	 Test accuracy: 0.35429999232292175
+
+INFO:root:Epoch: 5, Loss: 1.8045, Train accuracy: 0.34700000286102295	|	 Test accuracy: 0.35830000042915344
+
+INFO:root:Epoch: 6, Loss: 1.8001, Train accuracy: 0.34766000509262085	|	 Test accuracy: 0.3443000018596649
+
+INFO:root:Epoch: 7, Loss: 1.7935, Train accuracy: 0.34488001465797424	|	 Test accuracy: 0.3481999933719635
+
+INFO:root:Epoch: 8, Loss: 1.7942, Train accuracy: 0.349700003862381	|	 Test accuracy: 0.35839998722076416
+
+INFO:root:Epoch: 9, Loss: 1.7886, Train accuracy: 0.3503200113773346	|	 Test accuracy: 0.34630000591278076
+
+INFO:root:Epoch: 10, Loss: 1.7917, Train accuracy: 0.34929999709129333	|	 Test accuracy: 0.3537999987602234
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.7854, Train accuracy: 0.35499998927116394	|	 Test accuracy: 0.36399999260902405
+
+INFO:root:Epoch: 2, Loss: 1.7682, Train accuracy: 0.3604600131511688	|	 Test accuracy: 0.3603000044822693
+
+INFO:root:Epoch: 3, Loss: 1.7660, Train accuracy: 0.35833999514579773	|	 Test accuracy: 0.36160001158714294
+
+INFO:root:Epoch: 4, Loss: 1.7622, Train accuracy: 0.36028000712394714	|	 Test accuracy: 0.36419999599456787
+
+INFO:root:Epoch: 5, Loss: 1.7564, Train accuracy: 0.3642599880695343	|	 Test accuracy: 0.3628000020980835
+
+INFO:root:Epoch: 6, Loss: 1.7522, Train accuracy: 0.3651599884033203	|	 Test accuracy: 0.3709000051021576
+
+INFO:root:Epoch: 7, Loss: 1.7473, Train accuracy: 0.36735999584198	|	 Test accuracy: 0.37599998712539673
+
+INFO:root:Epoch: 8, Loss: 1.7450, Train accuracy: 0.36743998527526855	|	 Test accuracy: 0.3707999885082245
+
+INFO:root:Epoch: 9, Loss: 1.7453, Train accuracy: 0.3707599937915802	|	 Test accuracy: 0.37700000405311584
+
+INFO:root:Epoch: 10, Loss: 1.7406, Train accuracy: 0.3684999942779541	|	 Test accuracy: 0.3763999938964844
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.8878, Train accuracy: 0.33855998516082764	|	 Test accuracy: 0.3467000126838684
+
+INFO:root:Epoch: 2, Loss: 1.8562, Train accuracy: 0.34455999732017517	|	 Test accuracy: 0.3296000063419342
+
+INFO:root:Epoch: 3, Loss: 1.8479, Train accuracy: 0.34595999121665955	|	 Test accuracy: 0.3467999994754791
+
+INFO:root:Epoch: 4, Loss: 1.8414, Train accuracy: 0.34536001086235046	|	 Test accuracy: 0.3386000096797943
+
+INFO:root:Epoch: 5, Loss: 1.8375, Train accuracy: 0.34459999203681946	|	 Test accuracy: 0.34279999136924744
+
+INFO:root:Epoch: 6, Loss: 1.8328, Train accuracy: 0.34887999296188354	|	 Test accuracy: 0.3395000100135803
+
+INFO:root:Epoch: 7, Loss: 1.8311, Train accuracy: 0.3456999957561493	|	 Test accuracy: 0.36550000309944153
+
+INFO:root:Epoch: 8, Loss: 1.8193, Train accuracy: 0.3486799895763397	|	 Test accuracy: 0.33250001072883606
+
+INFO:root:Epoch: 9, Loss: 1.8138, Train accuracy: 0.3497599959373474	|	 Test accuracy: 0.3418000042438507
+
+INFO:root:Epoch: 10, Loss: 1.8156, Train accuracy: 0.35161998867988586	|	 Test accuracy: 0.3578000068664551
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 2.1027, Train accuracy: 0.2908399999141693	|	 Test accuracy: 0.2671999931335449
+
+INFO:root:Epoch: 2, Loss: 2.1483, Train accuracy: 0.27856001257896423	|	 Test accuracy: 0.265500009059906
+
+INFO:root:Epoch: 3, Loss: 2.1579, Train accuracy: 0.2737799882888794	|	 Test accuracy: 0.2554999887943268
+
+INFO:root:Epoch: 4, Loss: 2.1453, Train accuracy: 0.2739199995994568	|	 Test accuracy: 0.28940001130104065
+
+INFO:root:Epoch: 5, Loss: 2.1584, Train accuracy: 0.272599995136261	|	 Test accuracy: 0.26829999685287476
+
+INFO:root:Epoch: 6, Loss: 2.1757, Train accuracy: 0.27024000883102417	|	 Test accuracy: 0.29319998621940613
+
+INFO:root:Epoch: 7, Loss: 2.1969, Train accuracy: 0.2662999927997589	|	 Test accuracy: 0.2667999863624573
+
+INFO:root:Epoch: 8, Loss: 2.1634, Train accuracy: 0.2674199938774109	|	 Test accuracy: 0.26330000162124634
+
+INFO:root:Epoch: 9, Loss: 2.1586, Train accuracy: 0.2712399959564209	|	 Test accuracy: 0.24950000643730164
+
+INFO:root:Epoch: 10, Loss: 2.1599, Train accuracy: 0.2662999927997589	|	 Test accuracy: 0.267300009727478
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 2.0546, Train accuracy: 0.2936600148677826	|	 Test accuracy: 0.2921000123023987
+
+INFO:root:Epoch: 2, Loss: 2.0254, Train accuracy: 0.2943600118160248	|	 Test accuracy: 0.29179999232292175
+
+INFO:root:Epoch: 3, Loss: 1.9923, Train accuracy: 0.29482001066207886	|	 Test accuracy: 0.2948000133037567
+
+INFO:root:Epoch: 4, Loss: 1.9771, Train accuracy: 0.2962999939918518	|	 Test accuracy: 0.2985000014305115
+
+INFO:root:Epoch: 5, Loss: 1.9553, Train accuracy: 0.29631999135017395	|	 Test accuracy: 0.2948000133037567
+
+INFO:root:Epoch: 6, Loss: 1.9708, Train accuracy: 0.29815998673439026	|	 Test accuracy: 0.2957000136375427
+
+INFO:root:Epoch: 7, Loss: 1.9600, Train accuracy: 0.2980400025844574	|	 Test accuracy: 0.2985999882221222
+
+INFO:root:Epoch: 8, Loss: 1.9508, Train accuracy: 0.2997399866580963	|	 Test accuracy: 0.3001999855041504
+
+INFO:root:Epoch: 9, Loss: 1.9439, Train accuracy: 0.3002200126647949	|	 Test accuracy: 0.29600000381469727
+
+INFO:root:Epoch: 10, Loss: 1.9434, Train accuracy: 0.29965999722480774	|	 Test accuracy: 0.29580000042915344
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.8961, Train accuracy: 0.322160005569458	|	 Test accuracy: 0.328900009393692
+
+INFO:root:Epoch: 2, Loss: 1.8595, Train accuracy: 0.3336400091648102	|	 Test accuracy: 0.3409999907016754
+
+INFO:root:Epoch: 3, Loss: 1.8469, Train accuracy: 0.3395799994468689	|	 Test accuracy: 0.3386000096797943
+
+INFO:root:Epoch: 4, Loss: 1.8247, Train accuracy: 0.34624001383781433	|	 Test accuracy: 0.34310001134872437
+
+INFO:root:Epoch: 5, Loss: 1.8115, Train accuracy: 0.3454599976539612	|	 Test accuracy: 0.3521000146865845
+
+INFO:root:Epoch: 6, Loss: 1.7987, Train accuracy: 0.34850001335144043	|	 Test accuracy: 0.357699990272522
+
+INFO:root:Epoch: 7, Loss: 1.8007, Train accuracy: 0.35315999388694763	|	 Test accuracy: 0.35249999165534973
+
+INFO:root:Epoch: 8, Loss: 1.7924, Train accuracy: 0.3578200042247772	|	 Test accuracy: 0.36410000920295715
+
+INFO:root:Epoch: 9, Loss: 1.7763, Train accuracy: 0.3587599992752075	|	 Test accuracy: 0.35899999737739563
+
+INFO:root:Epoch: 10, Loss: 1.7768, Train accuracy: 0.35868000984191895	|	 Test accuracy: 0.3626999855041504
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.8667, Train accuracy: 0.3331800103187561	|	 Test accuracy: 0.3294999897480011
+
+INFO:root:Epoch: 2, Loss: 1.8549, Train accuracy: 0.33535999059677124	|	 Test accuracy: 0.3528999984264374
+
+INFO:root:Epoch: 3, Loss: 1.8489, Train accuracy: 0.33715999126434326	|	 Test accuracy: 0.2856000065803528
+
+INFO:root:Epoch: 4, Loss: 1.8452, Train accuracy: 0.3393999934196472	|	 Test accuracy: 0.3292999863624573
+
+INFO:root:Epoch: 5, Loss: 1.8401, Train accuracy: 0.3386799991130829	|	 Test accuracy: 0.3176000118255615
+
+INFO:root:Epoch: 6, Loss: 1.8424, Train accuracy: 0.3350200057029724	|	 Test accuracy: 0.321399986743927
+
+INFO:root:Epoch: 7, Loss: 1.8377, Train accuracy: 0.34053999185562134	|	 Test accuracy: 0.33320000767707825
+
+INFO:root:Epoch: 8, Loss: 1.8397, Train accuracy: 0.33827999234199524	|	 Test accuracy: 0.3156000077724457
+
+INFO:root:Epoch: 9, Loss: 1.8328, Train accuracy: 0.3420200049877167	|	 Test accuracy: 0.34369999170303345
+
+INFO:root:Epoch: 10, Loss: 1.8338, Train accuracy: 0.3402000069618225	|	 Test accuracy: 0.3240000009536743
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.9744, Train accuracy: 0.3088800013065338	|	 Test accuracy: 0.3059999942779541
+
+INFO:root:Epoch: 2, Loss: 1.9870, Train accuracy: 0.3061000108718872	|	 Test accuracy: 0.304500013589859
+
+INFO:root:Epoch: 3, Loss: 1.9885, Train accuracy: 0.3031400144100189	|	 Test accuracy: 0.298799991607666
+
+INFO:root:Epoch: 4, Loss: 1.9819, Train accuracy: 0.3023200035095215	|	 Test accuracy: 0.31520000100135803
+
+INFO:root:Epoch: 5, Loss: 1.9915, Train accuracy: 0.3007600009441376	|	 Test accuracy: 0.3248000144958496
+
+INFO:root:Epoch: 6, Loss: 1.9568, Train accuracy: 0.30338001251220703	|	 Test accuracy: 0.30889999866485596
+
+INFO:root:Epoch: 7, Loss: 1.9914, Train accuracy: 0.3043600022792816	|	 Test accuracy: 0.29739999771118164
+
+INFO:root:Epoch: 8, Loss: 1.9812, Train accuracy: 0.3031800091266632	|	 Test accuracy: 0.2881999909877777
+
+INFO:root:Epoch: 9, Loss: 1.9714, Train accuracy: 0.30309998989105225	|	 Test accuracy: 0.3206000030040741
+
+INFO:root:Epoch: 10, Loss: 1.9698, Train accuracy: 0.3082199990749359	|	 Test accuracy: 0.30630001425743103
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.8881, Train accuracy: 0.31964001059532166	|	 Test accuracy: 0.3199999928474426
+
+INFO:root:Epoch: 2, Loss: 1.8934, Train accuracy: 0.3190799951553345	|	 Test accuracy: 0.31779998540878296
+
+INFO:root:Epoch: 3, Loss: 1.8774, Train accuracy: 0.3209199905395508	|	 Test accuracy: 0.3206999897956848
+
+INFO:root:Epoch: 4, Loss: 1.8743, Train accuracy: 0.3243800103664398	|	 Test accuracy: 0.3215000033378601
+
+INFO:root:Epoch: 5, Loss: 1.8782, Train accuracy: 0.3240399956703186	|	 Test accuracy: 0.3239000141620636
+
+INFO:root:Epoch: 6, Loss: 1.8695, Train accuracy: 0.3250400125980377	|	 Test accuracy: 0.32710000872612
+
+INFO:root:Epoch: 7, Loss: 1.8649, Train accuracy: 0.32864001393318176	|	 Test accuracy: 0.3208000063896179
+
+INFO:root:Epoch: 8, Loss: 1.8653, Train accuracy: 0.32499998807907104	|	 Test accuracy: 0.32269999384880066
+
+INFO:root:Epoch: 9, Loss: 1.8637, Train accuracy: 0.3256799876689911	|	 Test accuracy: 0.32499998807907104
+
+INFO:root:Epoch: 10, Loss: 1.8599, Train accuracy: 0.32989999651908875	|	 Test accuracy: 0.32280001044273376
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.8270, Train accuracy: 0.3389799892902374	|	 Test accuracy: 0.3400999903678894
+
+INFO:root:Epoch: 2, Loss: 1.8044, Train accuracy: 0.3465999960899353	|	 Test accuracy: 0.35429999232292175
+
+INFO:root:Epoch: 3, Loss: 1.7954, Train accuracy: 0.34821999073028564	|	 Test accuracy: 0.35670000314712524
+
+INFO:root:Epoch: 4, Loss: 1.7802, Train accuracy: 0.3549399971961975	|	 Test accuracy: 0.34610000252723694
+
+INFO:root:Epoch: 5, Loss: 1.7818, Train accuracy: 0.3546999990940094	|	 Test accuracy: 0.3555000126361847
+
+INFO:root:Epoch: 6, Loss: 1.7734, Train accuracy: 0.3574399948120117	|	 Test accuracy: 0.3571999967098236
+
+INFO:root:Epoch: 7, Loss: 1.7688, Train accuracy: 0.35721999406814575	|	 Test accuracy: 0.3603000044822693
+
+INFO:root:Epoch: 8, Loss: 1.7686, Train accuracy: 0.3614000082015991	|	 Test accuracy: 0.36480000615119934
+
+INFO:root:Epoch: 9, Loss: 1.7610, Train accuracy: 0.36032000184059143	|	 Test accuracy: 0.36570000648498535
+
+INFO:root:Epoch: 10, Loss: 1.7577, Train accuracy: 0.3636600077152252	|	 Test accuracy: 0.36070001125335693
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.7937, Train accuracy: 0.3454799950122833	|	 Test accuracy: 0.33489999175071716
+
+INFO:root:Epoch: 2, Loss: 1.7877, Train accuracy: 0.34940001368522644	|	 Test accuracy: 0.34529998898506165
+
+INFO:root:Epoch: 3, Loss: 1.7885, Train accuracy: 0.3483400046825409	|	 Test accuracy: 0.3149999976158142
+
+INFO:root:Epoch: 4, Loss: 1.7871, Train accuracy: 0.35067999362945557	|	 Test accuracy: 0.2985999882221222
+
+INFO:root:Epoch: 5, Loss: 1.7881, Train accuracy: 0.3480199873447418	|	 Test accuracy: 0.335099995136261
+
+INFO:root:Epoch: 6, Loss: 1.7858, Train accuracy: 0.34973999857902527	|	 Test accuracy: 0.3328000009059906
+
+INFO:root:Epoch: 7, Loss: 1.7811, Train accuracy: 0.35266000032424927	|	 Test accuracy: 0.3314000070095062
+
+INFO:root:Epoch: 8, Loss: 1.7836, Train accuracy: 0.34968000650405884	|	 Test accuracy: 0.33180001378059387
+
+INFO:root:Epoch: 9, Loss: 1.7797, Train accuracy: 0.3550199866294861	|	 Test accuracy: 0.3314000070095062
+
+INFO:root:Epoch: 10, Loss: 1.7820, Train accuracy: 0.35166001319885254	|	 Test accuracy: 0.3578000068664551
+
+INFO:root:Training started
+
+INFO:root:Epoch: 1, Loss: 1.8892, Train accuracy: 0.33032000064849854	|	 Test accuracy: 0.3271999955177307
+
+INFO:root:Epoch: 2, Loss: 1.8774, Train accuracy: 0.3255400061607361	|	 Test accuracy: 0.3310000002384186
+
+INFO:root:Epoch: 3, Loss: 1.8746, Train accuracy: 0.32651999592781067	|	 Test accuracy: 0.3167000114917755
+
+INFO:root:Epoch: 4, Loss: 1.8891, Train accuracy: 0.32697999477386475	|	 Test accuracy: 0.33640000224113464
+
+INFO:root:Epoch: 5, Loss: 1.8670, Train accuracy: 0.32763999700546265	|	 Test accuracy: 0.335099995136261
+
+INFO:root:Epoch: 6, Loss: 1.8713, Train accuracy: 0.3278200030326843	|	 Test accuracy: 0.32429999113082886
+
+INFO:root:Epoch: 7, Loss: 1.8938, Train accuracy: 0.3290199935436249	|	 Test accuracy: 0.32839998602867126
+
+INFO:root:Epoch: 8, Loss: 1.8669, Train accuracy: 0.32861998677253723	|	 Test accuracy: 0.3325999975204468
+
+INFO:root:Epoch: 9, Loss: 1.8727, Train accuracy: 0.32975998520851135	|	 Test accuracy: 0.32829999923706055
+
+INFO:root:Epoch: 10, Loss: 1.8795, Train accuracy: 0.3286600112915039	|	 Test accuracy: 0.33799999952316284
+

@@ -17,7 +17,7 @@ class ModelTrainer:
         self.model.to(self.device)
         self.criterion = criterion or CrossEntropyLoss()
         self.optimizer = optimizer or SGD(self.model.parameters(), lr=0.005)
-        self.dataloader = dataloader or DataLoaderFactory(root='./data', batch_size=32, num_workers=4, download=False)
+        self.dataloader = dataloader or DataLoaderFactory(root='./data', batch_size=32, num_workers=4, download=True)
         self.epochs = 0
 
     def train(self, epochs=10, write_log=False):
@@ -30,7 +30,7 @@ class ModelTrainer:
         if write_log:
             num_layers = len(list(self.model.children())) // 2 + 1
             id = random.randint(0, 1000)
-            setup_logger(filename=f'training_mlp_{num_layers}_hidden_layers_{id}.log')
+            setup_logger(log_file=f'logs/training_mlp_{num_layers}_hidden_layers_{id}.log')
             logging.info("Training started\n")
 
         for epoch in range(epochs):
