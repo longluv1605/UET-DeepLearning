@@ -16,7 +16,7 @@ def train(
 
         with tqdm.tqdm(train_loader, unit="batch") as tepoch:
             for inputs, labels in tepoch:
-                tepoch.set_description(f"Epoch {epoch+1}")
+                tepoch.set_description(f"Epoch {epoch+1}/{epochs}")
                 inputs = inputs.to(device)
                 labels = labels.to(device)
 
@@ -41,7 +41,7 @@ def train(
             epoch_loss = running_loss / len(train_loader)
             epoch_acc = correct / total
             print(
-                f"Epoch {epoch+1}/{epochs}, Loss: {epoch_loss:.4f}, Accuracy: {epoch_acc:.4f}"
+                f"|----> Loss: {epoch_loss:.4f}, Accuracy: {epoch_acc:.4f}"
             )
 
     return running_loss / len(train_loader)
