@@ -2,3 +2,4 @@ torch
 nltk
 pandas
 scikit-learn
+tqdm
