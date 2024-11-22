@@ -1,6 +1,8 @@
 import torch
 from torch.utils.data import Dataset, DataLoader
 
+import pandas as pd
+
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer, WordNetLemmatizer
@@ -10,42 +12,50 @@ import string
 from sklearn.model_selection import train_test_split
 from collections import Counter
 
-nltk.download('punkt')
-nltk.download('punkt_tab')
-nltk.download('stopwords')
-nltk.download('wordnet')
+nltk.download("punkt")
+nltk.download("punkt_tab")
+nltk.download("stopwords")
+nltk.download("wordnet")
 
-class Data_Staff():
+
+class Data_Staff:
     def __init__(self, language):
         # Init neccessary tools
         self.stemmer = PorterStemmer()
         self.lemmatizer = WordNetLemmatizer()
-        self.stop_words = set(stopwords.words('english'))
-        self.MAX_SEQ_LENGTH = 256 # Max length of sentence to encode
-        
+        self.stop_words = set(stopwords.words(language))
+        self.MAX_SEQ_LENGTH = 256  # Max length of sentence to encode
+
     # Sentence preprocessing function
     def preprocess_text(self, text):
-        text = text.lower() # Convert into lower case
+        text = text.lower()  # Convert into lower case
         tokens = word_tokenize(text)
-        tokens = [word for word in tokens if word not in string.punctuation] # Remove punctuation
-        tokens = [word for word in tokens if word not in self.stop_words] # Remove stopwords
-        tokens = [self.stemmer.stem(word) for word in tokens] # Stemming
-        tokens = [self.lemmatizer.lemmatize(word) for word in tokens] # Lematizing
-        return ' '.join(tokens)
+        tokens = [
+            word for word in tokens if word not in string.punctuation
+        ]  # Remove punctuation
+        tokens = [
+            word for word in tokens if word not in self.stop_words
+        ]  # Remove stopwords
+        tokens = [self.stemmer.stem(word) for word in tokens]  # Stemming
+        tokens = [self.lemmatizer.lemmatize(word) for word in tokens]  # Lematizing
+        return " ".join(tokens)
 
     # Build vocab
     def build_vocab(self, texts, max_vocab_size=10000):
         word_counts = Counter()
         for text in texts:
             word_counts.update(text.split())
-        vocab = {word: idx+2 for idx, (word, _) in enumerate(word_counts.most_common(max_vocab_size))}
-        vocab['<PAD>'] = 0
-        vocab['<UNK>'] = 1
+        vocab = {
+            word: idx + 2
+            for idx, (word, _) in enumerate(word_counts.most_common(max_vocab_size))
+        }
+        vocab["<PAD>"] = 0
+        vocab["<UNK>"] = 1
         return vocab
 
     # Indexing
     def encode_text(self, text, vocab):
-        return [vocab.get(word, vocab['<UNK>']) for word in text.split]
+        return [vocab.get(word, vocab["<UNK>"]) for word in text.split()]
 
     # Encode padding for train and test set
     def pad_sequences(self, sequences, max_length):
@@ -55,16 +65,19 @@ class Data_Staff():
                 padded_sequences.append(seq[:max_length])
             elif len(seq) < max_length:
                 padded_sequences.append(seq + [0] * (max_length - len(seq)))
-            else: padded_sequences.append(seq)
+            else:
+                padded_sequences.append(seq)
         return torch.Tensor(padded_sequences)
 
     def staff(self, dataframe):
         # Preprocess review
-        dataframe['review'] = dataframe['review'].apply(self.preprocess_text)
-        
+        dataframe["review"] = dataframe["review"].apply(self.preprocess_text)
+
         # Split data into train and test
-        X_train, X_test, y_train, y_test = train_test_split(dataframe['review'], dataframe['sentiment'], test_size=0.2, random_state=42)
-        
+        X_train, X_test, y_train, y_test = train_test_split(
+            dataframe["review"], dataframe["sentiment"], test_size=0.2, random_state=42
+        )
+
         # Build vocab
         vocab = self.build_vocab(X_train)
 
@@ -75,23 +88,38 @@ class Data_Staff():
         X_test_padded = self.pad_sequences(X_test_encoded, self.MAX_SEQ_LENGTH)
 
         # Convert into Tensor
-        X_train_padded = torch.tensor(X_train_padded)
-        X_test_padded = torch.tensor(X_test_padded)
-        y_train = torch.tensor([1 if label == 'positive' else 0 for label in y_train])
-        y_test = torch.tensor([1 if label == 'positive' else 0 for label in y_test])
-        
+        y_train = torch.tensor([1 if label == "positive" else 0 for label in y_train])
+        y_test = torch.tensor([1 if label == "positive" else 0 for label in y_test])
+
         return vocab, X_train_padded, X_test_padded, y_train, y_test
+
 
 # Define dataset
 class TextDataset(Dataset):
     def __init__(self, texts, labels):
-        self.texts = texts
-        self.labels = labels
-    
+        self.texts = texts.long()
+        self.labels = labels.long()
+
     def __len__(self):
         return len(self.texts)
-    
+
     def __getitem__(self, idx):
         return self.texts[idx], self.labels[idx]
-    
-def load_data(train, batch_size, num_workers):
+
+
+# Get dataloader
+def load_data(dataframe, batch_size, num_workers=2):
+    ds = Data_Staff(language="english")
+    vocab, X_train, X_test, y_train, y_test = ds.staff(dataframe)
+
+    # Create Dataset and DataLoader
+    train_dataset = TextDataset(X_train, y_train)
+    test_dataset = TextDataset(X_test, y_test)
+    train_loader = DataLoader(
+        train_dataset, batch_size=batch_size, shuffle=True, num_workers=num_workers
+    )
+    test_loader = DataLoader(
+        test_dataset, batch_size=batch_size, shuffle=False, num_workers=num_workers
+    )
+
+    return vocab, train_loader, test_loader
