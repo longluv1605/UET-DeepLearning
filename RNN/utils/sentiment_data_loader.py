@@ -96,8 +96,8 @@ def load_dataset(dataframe, max_length):
 # Define dataset
 class TextDataset(Dataset):
     def __init__(self, texts, labels):
-        texts = texts.long()
-        labels = labels.long()
+        self.texts = texts.long()
+        self.labels = labels.long()
 
     def __len__(self):
         return len(self.texts)

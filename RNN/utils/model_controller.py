@@ -40,9 +40,7 @@ def train(
 
             epoch_loss = running_loss / len(train_loader)
             epoch_acc = correct / total
-            print(
-                f"|----> Loss: {epoch_loss:.4f}, Accuracy: {epoch_acc:.4f}"
-            )
+            print(f"|----> Loss: {epoch_loss:.4f}, Accuracy: {epoch_acc:.4f}")
 
     return running_loss / len(train_loader)
 
@@ -72,3 +70,6 @@ def evaluate(model, test_loader, device=torch.device("cpu")):
 # Save model
 def save(model, filepath):
     torch.save(model.state_dict(), filepath)
+
+def load(filepath):
+    pass

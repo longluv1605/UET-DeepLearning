@@ -1,7 +1,7 @@
-from data_loader import *
-from text_cnn import TextCNN
-from model_controller import *
-from hyper_tuning import hyper_tuning
+from utils.data_loader import *
+from models.cnn.text_cnn import TextCNN
+from utils.model_controller import *
+from utils.hyper_tuning import hyper_tuning
 
 import pandas as pd
 import torch
@@ -34,7 +34,7 @@ def main():
     
     # Define Loss and Optimizer
     criterion = nn.CrossEntropyLoss()
-    optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+    optimizer = torch.optim.Adam(model.parameters(), lr=0.005)
     
     train(model=model, criterion=criterion, optimizer=optimizer, train_loader=train_loader, device=device, epochs=5)
     
