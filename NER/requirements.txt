@@ -1,4 +1,5 @@
 torch 
+torchcrf
 tqdm 
 numpy 
 scikit-learn
