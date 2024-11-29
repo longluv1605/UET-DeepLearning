@@ -1,2 +1,3 @@
 data/eng/*
 pretrained_emb/*
+*/__pycache__
